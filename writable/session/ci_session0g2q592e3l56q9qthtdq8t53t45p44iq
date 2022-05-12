@@ -1,0 +1,8 @@
+__ci_last_regenerate|i:1652275728;_ci_previous_url|s:50:"http://localhost/webdev3/public/index.php/register";username|s:13:"kukirataikura";name|s:16:"Ikwhan Syahputra";logged_in|b:1;error|s:161:"	<div class="errors" role="alert">
+		<ul>
+					<li>username Harus diisi</li>
+					<li>password Harus diisi</li>
+					<li>name Harus diisi</li>
+				</ul>
+	</div>
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:5:{s:14:"csrf_test_name";s:32:"77134f9d3e1e7b14babeefc1a18ac16c";s:8:"username";s:0:"";s:8:"password";s:0:"";s:13:"password_conf";s:0:"";s:4:"name";s:0:"";}}_ci_validation_errors|s:127:"a:3:{s:8:"username";s:20:"username Harus diisi";s:8:"password";s:20:"password Harus diisi";s:4:"name";s:16:"name Harus diisi";}";

@@ -1,0 +1,77 @@
+ERROR - 2022-05-11 04:03:14 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:03:37 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:07:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:11:47 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:14:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:15:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:16:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:22:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:23:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:24:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:24:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:24:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:24:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:31:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:36:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:38:14 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:41:36 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:41:49 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:47:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-11 04:47:32 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 04:48:08 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-11 07:01:31 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-05-11 07:01:31 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('kukirataikura', 'username', Array, NULL)
+#1 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'kukirataikura', Array, Array)
+#2 C:\xampp\htdocs\webdev3\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\webdev3\app\Controllers\Register.php(18): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(832): App\Controllers\Register->process()
+#5 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webdev3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-11 07:15:12 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-05-11 07:15:12 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('kukirataikura', 'username', Array, NULL)
+#1 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'kukirataikura', Array, Array)
+#2 C:\xampp\htdocs\webdev3\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\webdev3\app\Controllers\Register.php(18): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(832): App\Controllers\Register->process()
+#5 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webdev3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-11 07:16:51 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-05-11 07:16:51 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\webdev3\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\webdev3\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(832): App\Controllers\Login->process()
+#3 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webdev3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-11 07:19:51 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-05-11 07:19:51 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('kukirataikura', 'username', Array, NULL)
+#1 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'kukirataikura', Array, Array)
+#2 C:\xampp\htdocs\webdev3\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\webdev3\app\Controllers\Register.php(18): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(832): App\Controllers\Register->process()
+#5 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webdev3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-11 07:20:46 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-05-11 07:20:46 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('kukirataikura', 'username', Array, NULL)
+#1 C:\xampp\htdocs\webdev3\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'kukirataikura', Array, Array)
+#2 C:\xampp\htdocs\webdev3\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\webdev3\app\Controllers\Register.php(18): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(832): App\Controllers\Register->process()
+#5 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\webdev3\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\webdev3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-11 07:32:56 --> Duplicate entry '' for key 'PRIMARY'
+ERROR - 2022-05-11 07:37:32 --> Duplicate entry '' for key 'PRIMARY'
+ERROR - 2022-05-11 07:39:50 --> Duplicate entry '' for key 'PRIMARY'
